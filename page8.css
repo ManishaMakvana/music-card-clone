@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(224, 100, 100);
+}
+
+#down {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+p {
+    font-family: cursive;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+h4 {
+    margin-left: 120px;
+}
+
+#page {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#like {
+    margin-top: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spotify i {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.logo-bot {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+#beat {
+    margin-left: 50px;
+    background-image: url(beat-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    color: azure;
+}
+
+#navb {
+    padding-top: 10px;
+    display: flex;
+}
+
+#dot {
+    margin-left: 40px;
+    color: black;
+    font-size: larger;
+}
+
+#img-logo {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+    width: 220px;
+    position: relative;
+    border: 2px solid rgb(186, 25, 78);
+    border-radius: 5px;
+}
+
+#img {
+    margin-top: 10px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-image: url(khodiyar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+h5 {
+    margin-left: 45px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pb {
+    margin-top: 10px;
+    width: 80%;
+    -webkit-appearance: none;
+    height: 5px;
+    background: black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#pb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #b91d6b;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#pb::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #1DB954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#icon {
+    margin-top: 2px;
+    font-size: 40px;
+}
+
+#icon i {
+    cursor: pointer;
+}
+
+.fa-heart {
+    color: black;
+}
+
+.fa-heart.clicked {
+    color: red;
+}

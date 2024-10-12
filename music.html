@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="page">
+    <header>
+     <div  id="navb">
+       <div id="down" onclick="openanother()"><i class="fa-solid fa-angle-down"></i></div> 
+
+            <script>
+                function openanother()
+                {
+                    window.location.href="music2.html";
+                }
+            </script>
+        <p>PLAYING FROM PLAYLIST</p>
+        <div id="dot"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+    </div>
+    <h4>Forever Yours</h4>
+</header>
+
+<main>
+    <div id="img-logo">
+        <div id="img"></div>
+    </div>
+    <div id="like">
+        <p>ZULAN MORLI VAGI RE</p>
+        <div ID="heart"><i class="fa-solid fa-heart"></i>
+        
+            <script>
+                const heartIcon = document.getElementById('heart');
+            
+                heartIcon.addEventListener('click', function() {
+                    const icon = this.querySelector('.fa-heart');
+                    icon.classList.toggle('clicked'); // Toggle the 'clicked' class on each click
+                });
+            </script>
+        </div>
+    </div>
+    <h5>Aditya Gadhvi</h5>
+</main>
+
+<footer>
+    <div id="bottom">
+    <input type="range" name="range" min="0" max="100" id="pb">
+    
+    <div id="icon">
+    <i  id="prev" class="fa-sharp fa-solid fa-backward-step">
+       </i>
+       <script>
+        // JavaScript to handle the click event
+        document.getElementById("prev").addEventListener("click", function() {
+            // Navigate to another page ( ".html")
+            window.location.href = "music9.html";
+        });
+    </script>
+    <i  id="play" class="fa-sharp fa-solid fa-circle-play">
+    </i>
+    <i  id="next" class="fa-sharp fa-solid fa-forward-step"></i> 
+    <script>
+        // JavaScript to handle the click event
+        document.getElementById("next").addEventListener("click", function() {
+            // Navigate to another page ( ".html")
+            window.location.href = "music2.html";
+        });
+    </script>
+</div>
+</div>
+
+<div class="logo-bot">
+    <div id ="spotify"><i class="fa-brands fa-spotify"></i></div>
+    <div id="beat">
+    </div>
+</div>
+
+</footer>
+<audio id="audio" src="aditya.mp3"></audio>
+</div>
+</body>
+</html>
